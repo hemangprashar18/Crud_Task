@@ -3,7 +3,7 @@ const {updateEntry} = require('../controller/crud.controller');
 const {fetchEntry} = require('../controller/crud.controller');
 const {deleteEntry} = require('../controller/crud.controller');
 
-const MONGO_URL = 'mongodb+srv://crud:h8ZsBZ2wGtTsRszd@clustercrud.kttrxxt.mongodb.net/?retryWrites=true&w=majority';
+const MONGO_URL = 'MongoURL';
 
 var mongoose = require('mongoose');
 const Schema = mongoose.Schema ;
